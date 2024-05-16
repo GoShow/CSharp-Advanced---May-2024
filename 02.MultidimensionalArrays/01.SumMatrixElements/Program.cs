@@ -17,18 +17,10 @@ for (int row = 0; row < matrix.GetLength(0); row++)
 
 int sum = 0;
 
-for (int row = 0; row < matrix.GetLength(0); row++)
+foreach (int element in matrix)
 {
-    for (int col = 0; col < matrix.GetLength(1); col++)
-    {
-        sum += matrix[row, col];
-    }
+    sum += element;
 }
-
-//foreach (int element in matrix)
-//{
-//    sum += element;
-//}
 
 Console.WriteLine(matrix.GetLength(0));
 Console.WriteLine(matrix.GetLength(1));

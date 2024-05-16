@@ -26,3 +26,4 @@ for (int col = 0; col < matrix.GetLength(1); col++)
 
     Console.WriteLine(sum);
 }
+

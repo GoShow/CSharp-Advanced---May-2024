@@ -30,3 +30,4 @@ for (int row = 0; row < size; row++)
 }
 
 Console.WriteLine($"{searchSymbol} does not occur in the matrix");
+

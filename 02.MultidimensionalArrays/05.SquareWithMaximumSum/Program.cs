@@ -40,3 +40,4 @@ for (int row = 0; row < matrix.GetLength(0) - 1; row++)
 Console.WriteLine($"{matrix[maxSumRow, maxSumCol]} {matrix[maxSumRow, maxSumCol + 1]}");
 Console.WriteLine($"{matrix[maxSumRow + 1, maxSumCol]} {matrix[maxSumRow + 1, maxSumCol + 1]}");
 Console.WriteLine(maxSum);
+
